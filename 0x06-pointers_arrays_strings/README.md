@@ -33,6 +33,7 @@ FYI: The standard library provides a similar function: strncpy. Run man strncpy 
 3. strcmp
 
 Write a function that compares two strings.
+
 Prototype: int _strcmp(char *s1, char *s2);
 Your function should work exactly like strcmp
 FYI: The standard library provides a similar function: strcmp. Run man strcmp to learn more.
@@ -50,6 +51,7 @@ Where n is the number of elements of the array
 Write a function that changes all lowercase letters of a string to uppercase.
 
 Prototype: char *string_toupper(char *);
+
 6. Expect the best. Prepare for the worst. Capitalize on what comes
 
 Write a function that capitalizes all words of a string.
@@ -83,6 +85,7 @@ You are not allowed to use switch
 You are not allowed to use any ternary operation
 
 9. Numbers have life; they're not just symbols on paper
+
 Write a function that prints an integer.
 
 Prototype: void print_number(int n);
@@ -128,11 +131,9 @@ You are not allowed to use ,
 	The output should print 10 bytes per line
 	Each line starts with the position of the first byte of the line in hexadecimal (8 chars), starting with 0
 	Each line shows the hexadecimal content (2 chars) of the buffer, 2 bytes at a time, separated by a space
-	Each line shows the content of the buffer. If the byte is a printable character, print the letter, if not, print .
+Each line shows the content of the buffer. If the byte is a printable character, print the letter, if not, print .
 	Each line ends with a new line \n
 	If size is 0 or less, the output should be a new line only \n
 	You are allowed to use the standard library
 	The output should look like the following example, and formatted exactly the same way
-
-
 
